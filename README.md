@@ -10,11 +10,11 @@ Github: https://github.com/asavale1
 
 This script queries reddit based on the following parameters
 
-SUBREDDIT, LIMIT, TIME_LIMIT, SORT_BY, NSFW
+*SUBREDDIT*, *LIMIT*, *TIME_LIMIT*, *SORT_BY*, *NSFW*
  
 From the results of the query it randomly picks one post and downloads the image to the location defined by
 
-LOCAL_BG_LOC
+*LOCAL_BG_LOC*
 
 It then proceeds to update the desktop background to the downloaded image
 
