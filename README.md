@@ -4,6 +4,8 @@
 
 Ameya Savale
 
+Github: https://github.com/asavale1
+
 ##
 
 This script queries reddit based on the following parameters
