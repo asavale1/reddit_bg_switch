@@ -1,5 +1,6 @@
 # => * Name: reddit_bg_switch
 # => * Author: Ameya Savale
+# => * Github: https://github.com/asavale1/reddit_bg_switch
 # => * OS: Ubuntu 
 # => * 
 # => * This script queries reddit based on the following parameters
@@ -10,11 +11,11 @@
 # => * @SORT_BY
 # => * @NSFW
 # => * 
-# => * from the results of the query it randomly takes one post and downloads the image to the location defined by
+# => * From the results of the query it randomly picks one post and downloads the image to the location defined by
 # => *
 # => * @LOCAL_BG_LOC
 # => *
-# => * and updates the Ubuntu desktop background to the downloaded image
+# => * It then proceeds to update the desktop background to the downloaded image
 # => *
 # => * [ See below for detailed explanations on parameters ]
 # => *
