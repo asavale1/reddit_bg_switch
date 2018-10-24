@@ -31,3 +31,4 @@ If you would like this to run on a timer so that it switches your background eve
 
    __*/15 * * * * ruby /home/user/reddit_bg_switch.rb__
    
+   This will change your desktop background every 15th minute of the hour e.g. 1:00, 1:15, 1:30, 1:45 ....
