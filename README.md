@@ -28,5 +28,3 @@ If you would like this to run on a timer so that it switches your background eve
 1. Run **$> crontab -e**
 2. Select an editor if you haven't already
 3. On a new line add something like the following
-
-   ***/15 * * * * ruby /home/user/reddit_bg_switch.rb**
