@@ -81,5 +81,5 @@ response = Net::HTTP.start(uri.hostname, uri.port, use_ssl: uri.scheme == "https
 images_hash = JSON.parse(response.body)
 image_url = images_hash["data"]["children"][rand(LIMIT)]["data"]["url"]
 
-File.open("#{LOCAL_BG_LOC}/background", 'wb'){ |fo| fo.write open(image_url).read }
-IO.popen("gsettings set org.gnome.desktop.background picture-uri file://#{LOCAL_BG_LOC}/background")
+File.open("#{LOCAL_BG_LOC}/reddit_wallpaper", 'wb'){ |fo| fo.write open(image_url).read }
+IO.popen("gsettings set org.gnome.desktop.background picture-uri file://#{LOCAL_BG_LOC}/reddit_wallpaper")
