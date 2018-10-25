@@ -82,7 +82,7 @@ images_hash = JSON.parse(response.body)
 image_url = images_hash["data"]["children"][rand(LIMIT)]["data"]["url"]
 image_file = "reddit_wallpaper_1"
 
-if File.file?("#{LOCAL_BG_LOC}/reddit_bg_1")
+if File.file?("#{LOCAL_BG_LOC}/reddit_wallpaper_1")
 	IO.popen("rm -rf #{LOCAL_BG_LOC}/reddit_wallpaper_1")
 	image_file = "reddit_wallpaper_2"
 else
