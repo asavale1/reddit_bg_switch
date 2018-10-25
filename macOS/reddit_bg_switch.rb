@@ -59,7 +59,7 @@ SORT_BY = "hot" # => relevance | hot | top | new | comments
 NSFW = "no" # => yes | no
 #
 # => Full path to local directory where the image will be saved
-LOCAL_BG_LOC = "/Users/ameya/Pictures" # => e.g. /home/user/Pictures  
+LOCAL_BG_LOC = "" # => e.g. /home/user/Pictures  
 #
 # => 
 # => END OF CUSTOMIZABLE PARAMETERS
