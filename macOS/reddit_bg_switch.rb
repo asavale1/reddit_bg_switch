@@ -90,4 +90,5 @@ else
 end
 
 File.open("#{LOCAL_BG_LOC}/#{image_file}", 'wb'){ |fo| fo.write open(image_url).read }
-IO.popen("osascript -e 'tell application \"Finder\" to set desktop picture to POSIX file \"#{LOCAL_BG_LOC}/#{image_file}\"'")
+#IO.popen("osascript -e 'tell application \"Finder\" to set desktop picture to POSIX file \"#{LOCAL_BG_LOC}/#{image_file}\"'")
+IO.popen("osascript -e 'tell application \"System Events\" to tell every desktop to set picture to \"#{LOCAL_BG_LOC}/#{image_file}\"'")
